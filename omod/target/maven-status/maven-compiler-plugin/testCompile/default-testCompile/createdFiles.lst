@@ -1,0 +1,4 @@
+org\openmrs\module\referenceapplication\RegistrationAppTest.class
+org\openmrs\module\referenceapplication\page\controller\HomePageControllerTest.class
+org\openmrs\module\referenceapplication\page\controller\LoginPageControllerTest$1.class
+org\openmrs\module\referenceapplication\page\controller\LoginPageControllerTest.class

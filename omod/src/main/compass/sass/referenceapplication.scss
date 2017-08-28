@@ -1,0 +1,55 @@
+@import "customVariables";
+@import "reference";
+
+body {
+  max-width: none !important;
+}
+
+form fieldset, .form fieldset {
+  display: inherit;
+}
+
+ul#formBreadcrumb {
+  display: none;
+}
+/*
+ * tag 'section' can be deleted as this tag was changed to div in the html form
+ */
+.simple-form-ui section fieldset, .simple-form-ui section #confirmationQuestion, .simple-form-ui #confirmation fieldset, .simple-form-ui #confirmation #confirmationQuestion, .simple-form-ui form section fieldset, .simple-form-ui form section #confirmationQuestion, .simple-form-ui form #confirmation fieldset, .simple-form-ui form #confirmation #confirmationQuestion {
+  display: block;
+  border: 1px solid #eeeeee;
+  padding: 20px;
+}
+.simple-form-ui section, .simple-form-ui #confirmation, .simple-form-ui form section, .simple-form-ui form #confirmation {
+  width: 100%;
+  display: block;
+  border-left: none;
+  padding: 0px;
+  background: #ffffff;
+}
+
+.simple-form-ui section fieldset legend, .simple-form-ui section #confirmationQuestion legend, .simple-form-ui #confirmation fieldset legend, .simple-form-ui #confirmation #confirmationQuestion legend, .simple-form-ui form section fieldset legend, .simple-form-ui form section #confirmationQuestion legend, .simple-form-ui form #confirmation fieldset legend, .simple-form-ui form #confirmation #confirmationQuestion legend {
+  display: block;
+}
+
+.simple-form-ui section.focused, .simple-form-ui #confirmation.focused, .simple-form-ui form section.focused, .simple-form-ui form #confirmation.focused {
+  display: inline-block;
+}
+.simple-form-ui section p, .simple-form-ui #confirmation p, .simple-form-ui form section p, .simple-form-ui form #confirmation p {
+  margin: 0 5px;
+  text-align: left;
+  line-height: 35px;
+}
+.simple-form-ui section p label, .simple-form-ui #confirmation p label, .simple-form-ui form section p label, .simple-form-ui form #confirmation p label {
+  font-size: 1.2em;
+}
+.simple-form-ui section p label span, .simple-form-ui #confirmation p label span, .simple-form-ui form section p label span, .simple-form-ui form #confirmation p label span {
+  font-size: 0.8em;
+  color: #999;
+}
+.simple-form-ui section fieldset select:focus, .simple-form-ui section fieldset input:focus, .simple-form-ui section #confirmationQuestion select:focus, .simple-form-ui section #confirmationQuestion input:focus, .simple-form-ui #confirmation fieldset select:focus, .simple-form-ui #confirmation fieldset input:focus, .simple-form-ui #confirmation #confirmationQuestion select:focus, .simple-form-ui #confirmation #confirmationQuestion input:focus, .simple-form-ui form section fieldset select:focus, .simple-form-ui form section fieldset input:focus, .simple-form-ui form section #confirmationQuestion select:focus, .simple-form-ui form section #confirmationQuestion input:focus, .simple-form-ui form #confirmation fieldset select:focus, .simple-form-ui form #confirmation fieldset input:focus, .simple-form-ui form #confirmation #confirmationQuestion select:focus, .simple-form-ui form #confirmation #confirmationQuestion input:focus {
+  outline: 2px solid #007fff;
+}
+.simple-form-ui section fieldset select.error, .simple-form-ui section fieldset input.error, .simple-form-ui section #confirmationQuestion select.error, .simple-form-ui section #confirmationQuestion input.error, .simple-form-ui #confirmation fieldset select.error, .simple-form-ui #confirmation fieldset input.error, .simple-form-ui #confirmation #confirmationQuestion select.error, .simple-form-ui #confirmation #confirmationQuestion input.error, .simple-form-ui form section fieldset select.error, .simple-form-ui form section fieldset input.error, .simple-form-ui form section #confirmationQuestion select.error, .simple-form-ui form section #confirmationQuestion input.error, .simple-form-ui form #confirmation fieldset select.error, .simple-form-ui form #confirmation fieldset input.error, .simple-form-ui form #confirmation #confirmationQuestion select.error, .simple-form-ui form #confirmation #confirmationQuestion input.error {
+  border-color: #ff6666;
+}

@@ -1,0 +1,17 @@
+#login-form {
+  ul.select {
+    width: 850px;
+  }
+
+  p {
+    input[type=text], input[type=password] {
+      width: 405px;
+    }
+  }
+}
+
+.location-error {
+	color: #ff6666;
+	font-size: 1.1em;
+	font-style: italic;
+}

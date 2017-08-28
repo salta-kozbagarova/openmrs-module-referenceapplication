@@ -1,0 +1,12 @@
+[
+    {
+        "id": "referenceapplication.manageApps",
+        "extensionPointId": "systemAdministration.apps",
+        "type": "link",
+        "label": "referenceapplication.app.manageApps.title",
+        "url": "referenceapplication/manageApps.page",
+        "icon": "icon-th",
+        "order": 0,
+        "requiredPrivilege": "App: referenceapplication.manageApps"
+    }
+]

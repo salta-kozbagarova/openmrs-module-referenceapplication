@@ -1,0 +1,8 @@
+org\openmrs\module\referenceapplication\ReferenceApplicationWebConstants.class
+org\openmrs\module\referenceapplication\fragment\controller\InfoAndErrorMessagesFragmentController.class
+org\openmrs\module\referenceapplication\page\controller\ManageAppsPageController.class
+org\openmrs\module\referenceapplication\converter\StringToUserAppConverter.class
+org\openmrs\module\referenceapplication\page\controller\HomePageController.class
+org\openmrs\module\referenceapplication\page\controller\ManageAppsPageController$AppModel.class
+org\openmrs\module\referenceapplication\page\controller\LoginPageController.class
+org\openmrs\module\referenceapplication\page\controller\UserAppPageController.class
